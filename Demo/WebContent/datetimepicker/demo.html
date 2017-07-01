@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title></title>
+    <link type="text/css" href="css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" />
+    <link href="css/jquery-ui-timepicker-addon.css" type="text/css" />
+    
+
+    <script src="js/jquery-1.9.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="js/jquery-ui-timepicker-addon.js" type="text/javascript"></script>
+    <script src="js/jquery.ui.datepicker-zh-CN.js" type="text/javascript" charset="gb2312"></script>
+    <script src="js/jquery-ui-timepicker-zh-CN.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            //  ±º‰…Ë÷√
+            jQuery('#time').datetimepicker({
+                timeFormat: "HH:mm:ss",
+                dateFormat: "yy-mm-dd",
+				showSecond:true,
+            });
+
+        });
+    </script>
+	<style>
+	
+	</style>
+</head>
+<body>
+    <input id="time" type="text" />
+</body>
+</html>
